@@ -7,27 +7,29 @@
       Home
     </router-link>
     <Search style="width: 60%;"/>
-    <div class="flex items-center gap-1">
+  </header>
+  <div class="bg-white shadow h-12 flex justify-center">
+  <div class="flex items-center gap-1">
       <router-link
-        :to="{ name: 'byName' }"
-        class="inline-flex items-center px-2 h-full transition-colors hover:bg-orange-500 hover:text-white"
+        :to="{ name: 'dev' }"
+        class="inline-grid text-center min-w-[100px] items-center px-2 h-full transition-colors hover:bg-orange-500 hover:text-white"
       >
-        Search Meals
+        개발
       </router-link>
       <router-link
-        :to="{ name: 'byLetter' }"
-        class="inline-flex items-center px-2 h-full transition-colors hover:bg-orange-500 hover:text-white"
+        :to="{ name: 'biz' }"
+        class="inline-grid text-center min-w-[100px] items-center px-2 h-full transition-colors hover:bg-orange-500 hover:text-white"
       >
-        Meals By Letter
+        비즈니스
       </router-link>
       <router-link
-        :to="{ name: 'ingredients' }"
-        class="inline-flex items-center px-2 h-full transition-colors hover:bg-orange-500 hover:text-white"
+        :to="{ name: 'fin' }"
+        class="inline-grid text-center min-w-[100px] items-center px-2 h-full transition-colors hover:bg-orange-500 hover:text-white"
       >
-        Meals By Ingredients
+        재무 및 회계
       </router-link>
     </div>
-  </header>
+  </div>
 </template>
 
 <script setup>

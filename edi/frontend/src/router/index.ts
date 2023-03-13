@@ -20,17 +20,17 @@ const routes = [
       },
       {
         path: "/by-name/:name?",
-        name: "byName",
+        name: "dev",
         component: MealsByName,
       },
       {
         path: "/by-letter/:letter?",
-        name: "byLetter",
+        name: "biz",
         component: MealsByLetter,
       },
       {
         path: "/ingredients",
-        name: "ingredients",
+        name: "fin",
         component: Ingredients,
       },
       {
