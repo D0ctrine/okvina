@@ -1,4 +1,5 @@
 <template>
+  <SlideBanner/>
   <div class="p-8 pb-0 text-orange-500">
     <h1 class="text-4xl font-bold mb-4">Random Meals</h1>
   </div>
@@ -10,6 +11,7 @@ import { computed, onMounted, ref } from "vue";
 import store from "../store";
 import Meals from "../components/Meals.vue";
 import axiosClient from "../axiosClient.ts";
+import SlideBanner from "../components/SlideBanner.vue";
 
 const meals = ref([]);
 
