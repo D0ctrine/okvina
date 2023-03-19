@@ -9,5 +9,5 @@
   </div>
 </template>
 
-<script setup>
+<script>
 </script>

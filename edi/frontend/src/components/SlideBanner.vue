@@ -33,7 +33,7 @@ export default defineComponent( {
       rewind  : true,
       gap     : '1rem',
       autoplay: true,
-      height  : '25rem',
+      height  : '20rem',
     };
     return {
       slides,

@@ -34,6 +34,41 @@ const routes = [
         component: Ingredients,
       },
       {
+        path: "/ingredients",
+        name: "IT",
+        component: Ingredients,
+      },
+      {
+        path: "/ingredients",
+        name: "product",
+        component: Ingredients,
+      },
+      {
+        path: "/ingredients",
+        name: "myedu",
+        component: Ingredients,
+      },
+      {
+        path: "/ingredients",
+        name: "design",
+        component: Ingredients,
+      },
+      {
+        path: "/ingredients",
+        name: "marketing",
+        component: Ingredients,
+      },
+      {
+        path: "/ingredients",
+        name: "health",
+        component: Ingredients,
+      },
+      {
+        path: "/ingredients",
+        name: "music",
+        component: Ingredients,
+      },
+      {
         path: "/by-ingredient/:ingredient",
         name: "byIngredient",
         component: MealsByIngredient,
